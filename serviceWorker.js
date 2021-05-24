@@ -1,5 +1,5 @@
-let CACHE_NAME = 'todo';
-const urlsToCache = ['/todo/', '/todo/index.html'];
+let CACHE_NAME = 'TodoList';
+const urlsToCache = ['/TodoList/', '/TodoList/index.html'];
 self.addEventListener('install', e => {
     e.waitUntil(
         caches.open(CACHE_NAME).then(cache => {
